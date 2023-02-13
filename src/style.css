@@ -1,0 +1,142 @@
+.heroImage img {
+    width: 800px; 
+    height: 600px; 
+    flex: 1 1;
+}
+
+.Heading {
+    color: rgb(252, 89, 2); 
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background-color: rgb(189, 185, 185); 
+}
+
+
+.BlogCard1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+    color: orangered;
+    border: 1em solid rgb(252, 89, 2);
+    height: 400px; 
+    width: 300px; 
+}
+
+.BlogCard2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+    color: orangered;
+    border: 1em solid rgb(252, 89, 2);
+    height: 400px; 
+    width: 300px;
+}
+
+.BlogCard3 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+    color: orangered;
+    border: 1em solid rgb(252, 89, 2);
+    height: 400px; 
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    color: grey;
+}
+
+.navBar {
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/* // copied  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navBar {
+  width: 100%;
+  height: 100%; 
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navBar a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navBar .dot {
+  width: 6px;
+  height: 6px;
+  background: orangered;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navBar a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navBar a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navBar a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
